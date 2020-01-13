@@ -56,7 +56,7 @@ export default function App() {
 
         ref.current.method();
 
-        return ()=>{
+        return ()=>{  //解除绑定
             console.log('unbind');
         }
 
