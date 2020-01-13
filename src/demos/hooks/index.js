@@ -23,7 +23,11 @@ const Comp = memo((props)=>{
         props.onClick(props.value + '1')
     };
 
-    return<button onClick={updateValue}>comp button</button>
+    return<button
+        style={{width:'200px',height:"40px",background:'red',margin:'20px'}}
+        onClick={updateValue}>
+        comp button{props.name}
+    </button>
 });
 
 
@@ -65,7 +69,8 @@ export default function App() {
 
     return (
         <div className="App">
-            <input type="text" value={name} onChange={e => setName(e.target.value)}/>
+            <input  style={{width:'200px',height:"40px",border:'1px solid red',margin:'20px'}}
+                type="text" value={name} onChange={e => setName(e.target.value)}/>
             <Comp name={compName} onClick = {compCallback}/>
             <TestContext.Provider value ={name} >
                 <ContextComp ref = {ref}/>
