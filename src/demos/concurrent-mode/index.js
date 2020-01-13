@@ -3,6 +3,8 @@ import React from "react";
 import { flushSync } from 'react-dom';  //强制使用优先级最高的更新
 // const ConcurrentMode = React.unstable_ConcurrentMode;
 import './style.css'
+
+
 class Parent extends React.Component{
     state = {
         async:true,

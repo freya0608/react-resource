@@ -7,8 +7,9 @@ import './index.css';
 // import App from './demos/hooks/index';
 // import App from './demos/ref/index';
 // import App from './demos/forword-ref/index';
-import App from './demos/context/index';
+// import App from './demos/context/index';
 // import App from './demos/concurrent-mode/index';
+import App from './demos/suspense/index';
 
 
 
