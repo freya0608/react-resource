@@ -1,0 +1,11 @@
+.wrapper{
+    width: 500px;
+    margin: 30px;
+}
+.item{
+    display: inline-block;
+    background: red;
+    border: 1px solid white;
+    height: 15px;
+    width: 15px;
+}
