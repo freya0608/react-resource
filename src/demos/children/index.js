@@ -2,7 +2,7 @@ import React from "react";
 
 function ChildrenDemo(props) {
 
-    console.log(props.Children)
+    console.log(props.Children);
     console.log(React.Children.map(props.children,c=>[c,[c,c]]));
     return props.children
 }
