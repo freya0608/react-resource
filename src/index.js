@@ -13,7 +13,8 @@ import './index.css';
 // import App from './demos/concurrent-mode/index';
 // import App from './demos/suspense/index';
 // import App from './demos/children/index';
-import App from './demos/state/index';
+// import App from './demos/state/index';
+import App from './demos/debounce/index';
 
 
 
