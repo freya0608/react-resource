@@ -36,7 +36,7 @@ class Foo extends React.Component{
     render() {
         return (
             <div>
-                <button onClicklick={this.handleClickOne}>clickOne</button>
+                <button onClick={this.handleClickOne}>clickOne</button>
                 <button onClick={this.handleClick}>handleClick</button>
                 {/*<button onClick={this.handleClickTwo}>clickTwo</button>*/}
                 <p>{this.state.count}</p>
