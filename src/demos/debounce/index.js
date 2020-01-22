@@ -39,10 +39,10 @@ class APP extends React.Component{
         }
 
         let timer;
-        let start = +new Date();
+        let start = + new Date();
 
         return function (...rest) {
-            let now = +new Date();
+            let now = + new Date();
 
             if (timer) {
                 clearTimeout(timer)
